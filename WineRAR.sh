@@ -8,7 +8,7 @@ echo " Checking/Creating .wine directories "
 echo ""
 wine program
 sudo wine program
-sleep 1
+sleep 2
 echo ""
 echo " Getting WinRAR x64 Windows executable file "
 echo "" 
@@ -17,13 +17,13 @@ sleep 2
 echo ""
 echo " Please install WinRAR x64 for Windows, to your preference "
 echo ""
-sleep 3
+sleep 2
 wine winrar-x64-600.exe
-sleep 4
+sleep 2
 echo ""
 echo " Done! Windows WinRAR is now installed for Linux to run under WINE "
 echo """
-sleep 5
+sleep 2
 exit 0
 fi
 
